@@ -8,7 +8,7 @@ if (w !== '') {
   exports.LZW.decompress = function (compressedData) {
     var i;
     var dictionary = [];
-    var w;
+    var w;//robot
     var result;
     var key;
     var entry = '';
